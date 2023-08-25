@@ -6,7 +6,7 @@
 
    # Author: Upkar Lidder (IBM)
    # Additional Authors:
-   # <your GitHub username>
+   # samuelandrew1
 
    # Input:
    # p, principal amount
@@ -18,9 +18,9 @@
 
    echo "Enter the principal:"
    read p
-   echo "Enter rate of interest per year:"
+   echo "Enter the rate of interest per year:"
    read r
-   echo "Enter time period in years:"
+   echo "Enter the time period in years:"
    read t
 
    s=`expr $p \* $t \* $r / 100`
